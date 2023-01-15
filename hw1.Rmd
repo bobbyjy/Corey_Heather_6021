@@ -2,7 +2,9 @@
 title: "6021 hw1"
 author: "Corey_Heather"
 date: "2023-01-15"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
